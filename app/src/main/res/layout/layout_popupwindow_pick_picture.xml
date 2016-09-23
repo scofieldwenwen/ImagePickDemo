@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/item_pop_camera"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="拍照"
+            android:background="@android:color/white"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E0E0E0" />
+
+
+        <Button
+            android:id="@+id/item_pop_Photo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@android:color/white"
+            android:text="照片"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#F5F5F5" />
+
+        <Button
+            android:id="@+id/item_pop_cancel"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="52dp"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
